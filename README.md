@@ -1,6 +1,6 @@
 # Laravel Chronos
 
-[![Build Status](https://travis-ci.org/HealthEngineAU/laravel-chronos.svg?branch=master)](https://travis-ci.org/HealthEngineAU/laravel-chronos)
+[![Build Status](https://travis-ci.com/HealthEngineAU/laravel-chronos.svg?branch=master)](https://travis-ci.com/HealthEngineAU/laravel-chronos)
 [![Coverage Status](https://coveralls.io/repos/github/HealthEngineAU/laravel-chronos/badge.svg?branch=coveralls)](https://coveralls.io/github/HealthEngineAU/laravel-chronos?branch=coveralls)
 
 This is a custom package designed for Laravel Eloquent. It provides a trait that can be used in model classes that will
