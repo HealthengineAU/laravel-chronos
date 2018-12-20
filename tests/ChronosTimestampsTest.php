@@ -1,12 +1,12 @@
 <?php
 
-namespace HealthEngine\Laravel\Extension\Tests;
+namespace HealthEngine\LaravelChronos\Tests;
 
 use Cake\Chronos\Chronos;
 use Cake\Chronos\ChronosInterface;
 use DateTime;
 use DateTimeImmutable;
-use HealthEngine\Laravel\Extension\ChronosTimestamps;
+use HealthEngine\LaravelChronos\ChronosTimestamps;
 use PHPUnit\Framework\TestCase;
 
 class ChronosTimestampsTest extends TestCase

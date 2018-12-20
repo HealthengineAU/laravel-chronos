@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "HealthEngine\\Laravel\\Extension\\": "src/"
+            "HealthEngine\\LaravelChronos\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HealthEngine\\Laravel\\Extension\\Tests\\": "tests/"
+            "HealthEngine\\LaravelChronos\\Tests\\": "tests/"
         }
     },
     "scripts": {
