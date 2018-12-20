@@ -6,10 +6,10 @@ use Cake\Chronos\Chronos;
 use Cake\Chronos\ChronosInterface;
 use DateTime;
 use DateTimeImmutable;
-use HealthEngine\Laravel\Extension\HasChronosTimestamps;
+use HealthEngine\Laravel\Extension\ChronosTimestamps;
 use PHPUnit\Framework\TestCase;
 
-class HasChronosTimestampsTest extends TestCase
+class ChronosTimestampsTest extends TestCase
 {
     /**
      * Ensure that the freshTimestamp method returns a Chronos instance
@@ -73,7 +73,7 @@ class HasChronosTimestampsTest extends TestCase
     protected function createClass()
     {
         return new class {
-            use HasChronosTimestamps;
+            use ChronosTimestamps;
         };
     }
 }

@@ -7,14 +7,14 @@ use Cake\Chronos\ChronosInterface;
 use DateTimeInterface;
 
 /**
- * Trait HasChronosTimestamps
+ * Trait ChronosTimestamps
  * @package HealthEngine\Laravel\Extension;
  *
  * Overrides the Eloquent model timestamps to use Chronos instead of Carbon because they are immutable.
  * @see \Illuminate\Database\Eloquent\Concerns\HasTimestamps for the default implementatino that this trait aims to
  * improve with immutability.
  */
-trait HasChronosTimestamps
+trait ChronosTimestamps
 {
     /**
      * Get a fresh timestamp for the model.
