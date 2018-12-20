@@ -1,5 +1,7 @@
 # Laravel Chronos
 
+[![Latest Stable Version](https://poser.pugx.org/healthengine/laravel-chronos/version)](https://packagist.org/packages/healthengine/laravel-chronos)
+[![Total Downloads](https://poser.pugx.org/healthengine/laravel-chronos/downloads)](https://packagist.org/packages/healthengine/laravel-chronos)
 [![Build Status](https://travis-ci.com/HealthEngineAU/laravel-chronos.svg?branch=master)](https://travis-ci.com/HealthEngineAU/laravel-chronos)
 [![Coverage Status](https://coveralls.io/repos/github/HealthEngineAU/laravel-chronos/badge.svg?branch=master)](https://coveralls.io/github/HealthEngineAU/laravel-chronos?branch=master)
 
