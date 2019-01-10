@@ -19,7 +19,7 @@ To convert datetime casts from Carbon instances to Chronos instances in an Eloqu
 this trait in the model. An example is shown below:
 
 ```php
-use HealthEngine\Laravel\Extension\ChronosTimestamps;
+use HealthEngine\LaravelChronos\ChronosTimestamps;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
