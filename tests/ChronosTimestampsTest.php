@@ -37,12 +37,12 @@ class ChronosTimestampsTest extends TestCase
 
     /**
      * Ensure an exception is thrown trying to create a timestamp from an invalid string format
-     *
-     * @expectedException \Exception
-     * @expectedExceptionMessage Failed to parse time string
      */
     public function testAsDateTimeException()
     {
+        $this->expectException(\Exception::class);
+        $this->expectExceptionMessage('Failed to parse time string');
+
         $model = $this->createClass();
         $model->asDateTime('invalid date');
     }
