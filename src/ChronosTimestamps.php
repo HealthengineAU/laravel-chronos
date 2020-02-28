@@ -11,7 +11,7 @@ use DateTimeInterface;
  * @package HealthEngine\LaravelChronos;
  *
  * Overrides the Eloquent model timestamps to use Chronos instead of Carbon because they are immutable.
- * @see \Illuminate\Database\Eloquent\Concerns\HasTimestamps for the default implementatino that this trait aims to
+ * @see \Illuminate\Database\Eloquent\Concerns\HasTimestamps for the default implementation that this trait aims to
  * improve with immutability.
  */
 trait ChronosTimestamps
