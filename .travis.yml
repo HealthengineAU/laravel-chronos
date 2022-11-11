@@ -1,23 +1,30 @@
 language: php
 
 php:
-  - 7.2
-  - 7.3
-  - 7.4snapshot
+  - 7.4
+  - 8.0
+  - 8.1
+
+env:
+  - PREFER_LOWEST="--prefer-lowest"
+  - PREFER_LOWEST=""
 
 cache:
   directories:
     - $HOME/.composer
 
+install:
+  - composer update ${PREFER_LOWEST}
+
 before_script:
-  - composer install -n
+  - echo "xdebug.mode=coverage" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 script:
-  - composer phpunit
-
-after_success:
-  - travis_retry composer require php-coveralls/php-coveralls
-  - travis_retry php vendor/bin/php-coveralls -v
+  - composer test
 
 notifications:
   email: false
+
+branches:
+  only:
+    - master

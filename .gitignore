@@ -13,3 +13,4 @@ coverage*
 # editors
 .idea
 *.swp
+.phpunit.result.cache
