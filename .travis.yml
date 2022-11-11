@@ -16,6 +16,9 @@ cache:
 install:
   - composer update ${PREFER_LOWEST}
 
+before_script:
+  - echo "xdebug.mode=coverage" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
 script:
   - composer test
 
