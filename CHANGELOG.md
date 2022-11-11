@@ -12,6 +12,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PHP versions constrained in [composer.json](composer.json) to 7.2, 7.3, and 7.4.
 - This CHANGELOG file.
 
+### Changed
+
+- Supported PHP versions to 7.4, 8.0, and 8.1.
+- Minimum PHPUnit version to 9.3.
+- Migrated PHPUnit configuration to 9.3 format.
+
+### Removed
+
+- Tracking coverage in Coveralls.
+
 ## [2.0.0] - 2018-12-20
 
 ### Added
