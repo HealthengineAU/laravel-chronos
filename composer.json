@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "php": "^7.2 || ^7.3 || ^7.4",
         "cakephp/chronos": "^1.2 || ^2.0"
     },
     "require-dev": {
