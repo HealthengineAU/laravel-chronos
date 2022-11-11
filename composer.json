@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.2 || ^7.3 || ^7.4",
+        "php": "^7.4 || ^8.0.2",
         "cakephp/chronos": "^1.2 || ^2.0"
     },
     "require-dev": {
@@ -28,6 +28,6 @@
         }
     },
     "scripts": {
-        "phpunit": "@php vendor/bin/phpunit --colors=always"
+        "test": "@php vendor/bin/phpunit --colors=always"
     }
 }
