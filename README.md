@@ -3,7 +3,6 @@
 [![Latest Stable Version](https://poser.pugx.org/healthengine/laravel-chronos/version)](https://packagist.org/packages/healthengine/laravel-chronos)
 [![Total Downloads](https://poser.pugx.org/healthengine/laravel-chronos/downloads)](https://packagist.org/packages/healthengine/laravel-chronos)
 [![Build Status](https://travis-ci.com/HealthEngineAU/laravel-chronos.svg?branch=master)](https://travis-ci.com/HealthEngineAU/laravel-chronos)
-[![Coverage Status](https://coveralls.io/repos/github/HealthEngineAU/laravel-chronos/badge.svg?branch=master)](https://coveralls.io/github/HealthEngineAU/laravel-chronos?branch=master)
 
 This is a custom package designed for Laravel Eloquent. It provides a trait that can be used in model classes that will
 cast datetime fields to ChronosInterface instead of Carbon instances.

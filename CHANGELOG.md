@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - PHP versions constrained in [composer.json](composer.json) to 7.2, 7.3, and 7.4.
 - This CHANGELOG file.
+- Support for version 2 of `cakephp/chronos`.
 
 ### Changed
 
@@ -21,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Tracking coverage in Coveralls.
+- Support for version 1 of `cakephp/chronos`.
 
 ## [2.0.0] - 2018-12-20
 
