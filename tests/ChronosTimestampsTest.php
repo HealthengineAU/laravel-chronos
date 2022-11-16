@@ -9,6 +9,9 @@ use DateTimeImmutable;
 use HealthEngine\LaravelChronos\ChronosTimestamps;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @covers ChronosTimestamps
+ */
 class ChronosTimestampsTest extends TestCase
 {
     /**
