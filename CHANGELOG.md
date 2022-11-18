@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v3.0.0] - 2022-11-18
+
 ### Added
 
 - PHP versions constrained in [composer.json](composer.json) to 7.2, 7.3, and 7.4.
@@ -42,6 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The first release of this package.
 
-[unreleased]: https://github.com/HealthEngineAU/laravel-chronos/compare/2.0.0...HEAD
+[unreleased]: https://github.com/HealthEngineAU/laravel-chronos/compare/v3.0.0...HEAD
+[v3.0.0]: https://github.com/HealthEngineAU/laravel-chronos/compare/v3.0.0...2.0.0
 [2.0.0]: https://github.com/HealthEngineAU/laravel-chronos/compare/1.0.0...2.0.0
 [1.0.0]: https://github.com/HealthEngineAU/laravel-chronos/releases/tag/1.0.0
