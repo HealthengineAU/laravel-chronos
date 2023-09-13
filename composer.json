@@ -31,6 +31,7 @@
         }
     },
     "scripts": {
+        "coverage": "@php vendor/bin/phpunit --colors=always --coverage-text",
         "fix": "@php vendor/bin/php-cs-fixer fix",
         "lint": "@php vendor/bin/php-cs-fixer fix --diff --dry-run",
         "test": "@php vendor/bin/phpunit --colors=always"
