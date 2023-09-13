@@ -10,7 +10,7 @@ use HealthEngine\LaravelChronos\ChronosTimestamps;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers ChronosTimestamps
+ * @covers \HealthEngine\LaravelChronos\ChronosTimestamps
  */
 class ChronosTimestampsTest extends TestCase
 {

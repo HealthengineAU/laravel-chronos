@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Orchestra\Testbench\TestCase;
 
 /**
- * @covers ChronosTimestamps
+ * @covers \HealthEngine\LaravelChronos\ChronosTimestamps
  */
 class ModelTest extends TestCase
 {
