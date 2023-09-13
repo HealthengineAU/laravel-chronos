@@ -1,0 +1,47 @@
+version: 2.1
+
+executors:
+  php81:
+    docker:
+      - image: cimg/php:8.1
+  php82:
+    docker:
+      - image: cimg/php:8.2
+
+jobs:
+  lint:
+    executor: php82
+    steps:
+      - checkout
+      - run: composer update
+      - run: composer lint
+  test:
+    parameters:
+      php_executor:
+        type: string
+    executor: << parameters.php_executor >>
+    steps:
+      - checkout
+      - run: composer update --prefer-lowest
+      - run: composer test
+      - run: composer update
+      - run: composer test
+  coverage:
+    executor: php82
+    steps:
+      - run: sudo -E pecl install pcov && sudo -E docker-php-ext-enable pcov
+      - checkout
+      - run: composer update
+      - run: composer coverage
+
+workflows:
+  lint_test_coverage:
+    jobs:
+      - lint
+      - test:
+          matrix:
+            parameters:
+              php_executor: [php81, php82]
+      - coverage:
+          requires:
+            - test

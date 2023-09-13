@@ -14,6 +14,9 @@ See the [Chronos documentation](https://book.cakephp.org/3.0/en/chronos.html) fo
 
 ## Usage
 
+> [!WARNING]
+> This package is not compatible with Laravel's attribute casts: immutable_date, immutable_datetime.
+
 To convert datetime casts from Carbon instances to Chronos instances in an Eloquent model, all you need to do is `use`
 this trait in the model. An example is shown below:
 
@@ -25,11 +28,11 @@ class User extends Authenticatable
 {
     use ChronosTimestamps;
 
-    protected $dates = [
-        'seen_at',
-    ];
-
     protected $casts = [
+        // Throws error: "Call to undefined method Cake\Chronos\Chronos::toImmutable()"
+        // 'processed_at' => 'immutable_date',
+        // Throws error: "Call to undefined method Cake\Chronos\Chronos::toImmutable()"
+        // 'processed_at' => 'immutable_datetime',
         'processed_at' => 'datetime',
     ];
 }

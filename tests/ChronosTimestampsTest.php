@@ -50,7 +50,7 @@ class ChronosTimestampsTest extends TestCase
         $model->asDateTime('invalid date');
     }
 
-    public function dateValues()
+    public static function dateValues()
     {
         return [
             'timestamp' => [1545207000, new Chronos('2018-12-19T08:10:00.000000+0000')],
@@ -75,7 +75,7 @@ class ChronosTimestampsTest extends TestCase
 
     protected function createClass()
     {
-        return new class {
+        return new class () {
             use ChronosTimestamps;
         };
     }
