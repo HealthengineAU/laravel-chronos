@@ -24,7 +24,7 @@ trait ChronosTimestamps
      */
     public function freshTimestamp()
     {
-        return new Chronos;
+        return new Chronos();
     }
 
     /**
