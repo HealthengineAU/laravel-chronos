@@ -4,6 +4,7 @@
     "keywords": ["laravel", "eloquent", "carbon", "chronos", "immutable"],
     "type": "library",
     "license": "MIT",
+    "abandoned": "laravel/framework",
     "authors": [
         {
             "name": "Jarryd Tilbrook",
