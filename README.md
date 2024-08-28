@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is archived.
+> Use immutable date casts in [laravel/framework](https://github.com/laravel/framework) instead.
+
 # Laravel Chronos
 
 [![Latest Stable Version](https://poser.pugx.org/healthengine/laravel-chronos/version)](https://packagist.org/packages/healthengine/laravel-chronos)
